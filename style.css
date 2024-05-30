@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: serif;
+}
+
+body{
+    position: relative;
+}
+
+
+nav{
+    /* border: 2px solid black; */
+    height: 18vh;
+    width: 100%;
+    display: flex;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    /* border: 3px solid red; */
+    /* box-shadow: 0px 2px 0px 0px; */
+}
+
+.navbarContent{
+    /* border: 3px solid green; */
+    height: 15vh;
+    width: 100%;
+    box-shadow: 0px 2px 4px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 10000;
+}
+
+.bannerContent{
+    /* border: 3px solid green; */
+    height: 70vh;
+    background-color: rgb(247, 247, 247);
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: red;
+}
+.bannerContent img{
+    /* padding-top: 50px; */
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    
+}
+#image{
+    animation-name: pic;
+    animation-duration: 4.5s;
+}
+
+@keyframes pic{
+    0%{
+        transform: translate(500%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+}
+
+.bannerimg{
+    /* border: 3px solid red; */
+    height: 110vh;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+    background-color: rgb(247, 247, 247);
+}
+
+.bannerimg img{
+    width: 300px;
+    height: 300px;
+    animation-name: pic2;
+    animation-duration: 4.5s;
+    /* border: 3px solid purple; */
+    display: flex;
+    justify-content: center;
+    /* padding-left: -400px; */
+    float: right;
+    position: relative;
+}
+
+
+@keyframes pic2{
+    0%{
+        transform: translateX(-400%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+
+
+
+
+
+span{
+    color: #fff;
+    text-shadow: 1px 2px 3px #000;
+}
+em{
+    color: red;
+    text-shadow: 1px 2px 3px #000;
+    font-size: 80px;
+}
+h1{
+    animation-name: heading;
+    animation-duration: 4s;
+}
+
+p{
+    animation-name: paragraph;
+    animation-duration: 4s;
+}
+
+@keyframes heading{
+    0%{
+        transform: translate(-300%);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
+@keyframes paragraph{
+    0%{
+        transform: translate(-300%);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
+#imgmenu{
+    height: 1000px;
+    width: 600px;
+    animation-name: mymenu;
+    animation-duration: 4.5s;
+}
+
+@keyframes mymenu{
+    0%{
+        transform: translate(200%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+}
+
+
+.menuContent{
+    /* border: 3px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(247, 247, 247);
+}
+
+#menu{
+    /* font-size: 50px; */
+    padding-left: 150px;
+    color: #dbd2d2;
+    text-shadow: 1px 2px 3px  black;
+    margin-top: 100px;
+}
+#menu span{
+    font-size: 50px;
+}
+#imgmenu1{
+    height: 1000px;
+    width: 600px;
+    animation-name: mymenu2;
+    animation-duration: 4.5s;
+
+}
+
+@keyframes mymenu2{
+    0%{
+        transform: translate(-300%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+}
+
+
+.menuContent1{
+    /* border: 3px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+}
+
+.ContactInfo{
+    /* border: 4px solid purple; */
+    padding-left: 150px;
+    margin-top: 100px;
+}
+.ContactVideo{
+    /* border: 4px solid red; */
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    
+}
+.vid{
+    /* border: 5px solid green; */
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: video;
+    animation-duration: 4.5s;
+    padding-left: 280px;
+}
+
+#add{
+    color: red;
+    text-shadow: 1px 2px 2px #000;
+}
+
+
+#parag{
+    animation-name: para;
+    animation-duration: 4.5s;
+    text-shadow: 1px 1px 2px #000;
+    padding-top: 150px;
+    padding-left: 180px;
+    padding-right: 50px;
+}
+
+@keyframes para{
+    0%{
+        transform: translate(300%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+}
+
+
+
+@keyframes video{
+    0%{
+        transform: translate(-300%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+}
+
+#y2mate{
+    animation-name: videos;
+    animation-duration: 5s;
+    /* height: 2000px; */
+}
+
+@keyframes videos{
+    0%{
+        transform: translate(500%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+}
+
+
+
+.text{
+    /* border: 5px solid darkblue; */
+    width: 60%;
+    height: 50vh;
+}
+
+.text em{
+    font-size: 50px;
+}
+
+.contactContent{
+    /* border: 5px solid #000; */
+    height: 115vh;
+    display: flex;
+    padding-left: 150px;
+}
+form{
+    /* border: 3px solid #970f0f;  */
+    height: 115vh;
+    width: 50%;
+    animation-name: CInfo;
+    animation-duration: 4.5s;
+}
+
+@keyframes CInfo{
+    0%{
+        transform: translate(-300%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+}
+
+
+
+.vid2{
+    /* border: 3px solid deeppink; */
+    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form p{
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+input{
+    height: 60px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+
+
+input:hover{
+    border: 2px solid red;
+}
+
+#mess{
+    border-radius: 10px;
+}
+
+
+textarea:hover{
+    border: 2px solid red;
+    /* border-radius: 0px; */
+}
+button{
+    border: 2px solid black;
+    width: 600px;
+    background-color: none;
+}
+button:hover{
+    border: 2px solid red;
+    background-color: red;
+    color: #fff;
+    transition: 1.5s;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer em{
+    color: #000;
+    font-size:  30px;
+}
+
+#foot{
+    margin-top: 250px;
+}
